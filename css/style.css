@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     text-align:center;
+ }
+
+ .container-body{
+     background-image: url(/image/certificate-background.jpeg);
+     background-size: cover;
+     background-position:center;
+     background-repeat: no-repeat;
+     border: 1px solid rgb(207 221 230);
+     height: 80vh;
+     width: 65%;    
+ }
+ .main-container{
+     display: flex;
+     justify-content:center;
+     flex-direction: row;
+     vertical-align: middle;
+ }
+.section-body{
+     position: relative;
+     top: 5rem;
+ }
+h3{
+     font-family: 'Graduate', cursive;
+    font-size:  26px;
+    color: #ffce58;
+}
+h1{
+    font-family: 'Graduate', cursive;
+    font-size: 3rem;
+    /* margin-top: 3rem; */
+    color: #244f7a;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem; 
+    color: #ffce58;
+}
+h2{
+    font-family: 'Smooch', cursive;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #234d7a;
+    letter-spacing: 5px;
+}
+p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:  2px;
+    margin-top: 5px;
+    color: #244f7a;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    color:#244f7a ;
+}
+h6{
+ font-family: 'Roboto', sans-serif;
+ color: #244f7a;
+}
+
+
+.section-container{
+   display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.section-container img{
+   width: 50px;
+
+}
+.section-hr{
+   width: 7rem;
+}
+.first-signature, .second-signature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
